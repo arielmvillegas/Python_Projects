@@ -10,7 +10,7 @@ print(f"3. Calculate the Hypotenuse of a right triangle.")
 choice = int(input("Enter 1, 2, or 3:"))
 
 # Calculate the circumference of a circle.
-if (choice == 1):
+if choice == 1:
     radius = float(input('Enter the radius of a circle: '))
     circumference = 2 * math.pi * radius
     print(f"The circumference of the circle is: {round(circumference,2)} cm")
